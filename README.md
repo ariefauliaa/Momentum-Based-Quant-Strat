@@ -23,6 +23,9 @@ Rather than relying on news directly, this strategy identifies sectors that have
 
 ### 📊 Backtest Results
 
+![Uploading download.png…]()
+
+
 | Metric                    | Value            |
 |---------------------------|------------------|
 | **Period**                | 2000-10-22 to 2025-04-13 |
