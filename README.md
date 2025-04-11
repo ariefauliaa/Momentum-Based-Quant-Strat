@@ -1,6 +1,6 @@
-# 📦 Sector Event-Based Backtest (JCI + GICS)
+# 📦 Momentum-Based Strategy
 
-This repository explores a sector-based event investing approach using stocks from the **Indonesia Stock Exchange (JCI)**, categorized by **Bloomberg GICS industry classification**.
+This repository explores a sector-based event investing approach using stocks from the **Jakarta Composite Index (JCI)**, categorized by **Bloomberg GICS industry classification**.
 
 ---
 
@@ -13,10 +13,11 @@ Rather than relying on news directly, this strategy identifies sectors that have
 ---
 
 ### 🔧 Setup
-- **Market**: Indonesia Stock Exchange (JCI)  
+- **Market**: Jakarta Composite Index (JCI)  
 - **Sector Classification**: Bloomberg GICS  
 - **Tools**: Python / Jupyter Notebook  
-- **Data Logic**: Sector performance filters → basket-level exposure  
+- **Data Logic**: Sector performance filters → basket-level exposure
+- **Data Source**: Bloomberg Finance LP, Arief Aulia Rakhman  
 
 ---
 
@@ -26,17 +27,17 @@ Rather than relying on news directly, this strategy identifies sectors that have
 |---------------------------|------------------|
 | **Period**                | 2000-10-22 to 2025-04-13 |
 | **Initial Balance**       | Rp1,000,000       |
-| **Final Balance**         | Rp913,281,339     |
-| **Total Return**          | 90,087.27%        |
-| **Annualized Return**     | 32.05%            |
-| **Annualized Volatility** | 30.54%            |
-| **Sharpe Ratio**          | 1.05              |
-| **Max Drawdown**          | -61.88%           |
+| **Final Balance**         | Rp491,157,865     |
+| **Total Return**          | 48,402.23%        |
+| **Annualized Return**     | 28.75%            |
+| **Annualized Volatility** | 26.99%            |
+| **Sharpe Ratio**          | 1.07              |
+| **Max Drawdown**          | -56.18%           |
 |                           |                  |
 | **Benchmark Return**      | 1,939.33%         |
 | **Benchmark Max Drawdown**| -59.50%           |
-| **Total Alpha**           | 88,147.94%        |
-| **Annualized Alpha**      | 31.94%            |
+| **Total Alpha**           | 46,462.90%        |
+| **Annualized Alpha**      | 28.53%            |
 
 ---
 
@@ -48,5 +49,5 @@ To evaluate whether **reactive sector exposure** — mimicking event-driven inve
 
 📁 **Note:**  
 The Jupyter notebook containing the full backtest is **private**.  
-If you're a **recruiter or headhunter**, feel free to reach out via email for access.  
-📧 [your.email@example.com]
+Feel free to reach out via email for access.  
+📧 [ariefauliaa@gmail.com]
