@@ -29,21 +29,20 @@ Rather than relying on news directly, this strategy identifies sectors that have
 |---------------------------|------------------|
 | **Period**                | 2000-10-22 to 2025-04-13 |
 | **Initial Balance**       | Rp1,000,000       |
-| **Final Balance**         | Rp432,246,719     |
-| **Total Return**          | 42,588.93%        |
-| **Annualized Return**     | 28.08%            |
-| **Annualized Volatility** | 28.45%            |
-| **Sharpe Ratio**          | 0.99              |
-| **Max Drawdown**          | -56.18%           |
+| **Final Balance**         | Rp490,888,775     |
+| **Total Return**          | 48,375.66%        |
+| **Annualized Return**     | 28.75%            |
+| **Annualized Volatility** | 26.99%            |
+| **Sharpe Ratio**          | 1.06              |
+| **Max Drawdown**          | -56.19%           |
 |                           |                  |
 | **Benchmark Return**      | 1,939.33%         |
 | **Benchmark Max Drawdown**| -59.50%           |
-| **Total Alpha**           | 40,649.60%        |
-| **Annualized Alpha**      | 27.84%            |
+| **Total Alpha**           | 46,463.33%        |
+| **Annualized Alpha**      | 28.53%            |
 
-📌 Fee Assumptions:
-- Uses a transaction fee of **0.01% per trade**, a typical average in **prop trading firms**.
-- If **fee rebates** are applied (HFT environments), the strategy could reach a **final return of up to 48,400%**, showing significantly enhanced profitability under more favorable cost structures.
+Fee Assumptions:
+-The above result assumes the use of fee rebates. Without rebates and using the average fee from prop trading firms (0.01% per trade), the strategy yields a final return of approximately 40,408%.
 
 ---
 
