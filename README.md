@@ -41,6 +41,8 @@ Rather than relying on news directly, this strategy identifies sectors that have
 | **Total Alpha**           | 46,463.33%        |
 | **Annualized Alpha**      | 28.53%            |
 
+**Backtest Interpretation:**  
+
 Fee Assumptions: The above result assumes the use of fee rebates. Without rebates and using the average fee from prop firms (0.01% per tx), the strategy yields a final return of approximately 40,408%.
 
 ---
@@ -68,7 +70,7 @@ To further validate the robustness of the strategy, we conducted a **Monte Carlo
 | Bottom 5% outcome           | 0.20%        |
 | Probability of positive return | 95.4%     |
 
-📈 **Interpretation:**  
+**Monte Carlo Interpretation:**  
 
 With Monte Carlo simulation, the result is remarkably strong. Forward-simulating for 3 years, the **chance of a positive return is 95.4%**.  
 To put that into perspective:  
@@ -81,7 +83,7 @@ And it’s not just about *not losing*. The **mean return** of **124.77% over 3 
 
 ### 🎯 Objective
 
-To evaluate whether **reactive sector exposure** — mimicking event driven investing — can yield positive returns when applied systematically and without hindsight.
+To evaluate whether **reactive sector exposure** can yield positive returns when applied systematically and without hindsight.
 
 ---
 
