@@ -56,7 +56,7 @@ To further validate the robustness of the strategy, we conducted a **Monte Carlo
 |------------------------------|--------------|
 | Historical mean weekly return | 0.5529%      |
 | Historical weekly volatility  | 3.7410%      |
-| Simulation periods            | 156 weeks (~3 years) |
+| Simulation periods            | 3 years |
 | Number of simulations         | 500          |
 
 **SIMULATION RESULTS**  
@@ -69,13 +69,14 @@ To further validate the robustness of the strategy, we conducted a **Monte Carlo
 | Probability of positive return | 95.4%     |
 
 📈 **Interpretation:**  
+
 With Monte Carlo simulation, the result is remarkably strong. Forward-simulating for 3 years, the **chance of a positive return is 95.4%**.  
 To put that into perspective:  
 
-> Imagine you're blindfolded, and in front of you are **100 toys** — some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**.  
+Imagine you're blindfolded, and in front of you are **100 toys** some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**.  
 That’s how good this strategy’s odds look.
 
-And it’s not just about *not losing*. The **mean return** of **124.77% over 3 years** equates to an annual compound return (CAGR) of roughly **30.5%**, which is **excellent** — especially considering the conservative, reactionary nature of the strategy.
+And it’s not just about *not losing*. The **mean return** of **124.77% over 3 years** equates to CAGR of roughly **30.5%**, which is **excellent** especially considering the conservative, reactionary nature of the strategy.
 """
 
 ### 🎯 Objective
