@@ -51,7 +51,7 @@ Fee Assumptions: The above result assumes the use of fee rebates. Without rebate
 
 ![Monte Carlo Preview](Monte%20Carlo%20-%20Preview.png)
 
-To further validate the robustness of the strategy, we conducted a **Monte Carlo simulation** projecting returns forward for **3 years (156 weeks)** using historical weekly return characteristics.
+We also ran a **Monte Carlo simulation** using past weekly returns to forecast performance over the **next 3 years or 156 weeks**, which supports the strategy’s reliability.
 
 **MONTE CARLO SIMULATION PARAMETERS**  
 | Parameter                     | Value        |
@@ -72,10 +72,10 @@ To further validate the robustness of the strategy, we conducted a **Monte Carlo
 
 **Monte Carlo Interpretation:**  
 
-With Monte Carlo simulation, the result is remarkably strong. Forward-simulating for 3 years, the **chance of a positive return is 95.4%**.  
+With Monte Carlo simulation, the result is remarkably strong. Forward simulating for 3 years, the **chance of a positive return is 95.4%**.  
 To put that into perspective:  
 
-Imagine you're blindfolded, and in front of you are **100 toys** some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**. That’s how good this strategy’s odds look.
+- Imagine you're blindfolded, and in front of you are **100 toys** some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**. That’s how good this strategy’s odds look.
 
 And it’s not just about *not losing*. The **mean return** of **124.77% over 3 years** equates to CAGR of roughly **30.5%**, which is **excellent** especially considering the conservative, reactionary nature of the strategy.
 
