@@ -76,6 +76,7 @@ With Monte Carlo simulation, the result is remarkably strong. Forward simulating
 To put that into perspective:  
 
 - Imagine you're blindfolded, and in front of you are **100 toys** some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**. That’s how good this strategy’s odds look.
+- You roll a six sided die 100 times and land on a six 95 times. That’s not random anymore, that’s a strategy on steroids.
 
 And it’s not just about *not losing*. The **mean return** of **124.77% over 3 years** equates to CAGR of roughly **30.5%**, which is **excellent** especially considering the conservative, reactionary nature of the strategy.
 
