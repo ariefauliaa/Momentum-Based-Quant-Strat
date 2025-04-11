@@ -77,6 +77,8 @@ Imagine you're blindfolded, and in front of you are **100 toys** some **red** (s
 
 And it’s not just about *not losing*. The **mean return** of **124.77% over 3 years** equates to CAGR of roughly **30.5%**, which is **excellent** especially considering the conservative, reactionary nature of the strategy.
 
+---
+
 ### 🎯 Objective
 
 To evaluate whether **reactive sector exposure** — mimicking event driven investing — can yield positive returns when applied systematically and without hindsight.
