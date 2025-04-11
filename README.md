@@ -23,7 +23,7 @@ Rather than relying on news directly, this strategy identifies sectors that have
 
 ### 📊 Backtest Results
 
-![Backtest Preview](Backtest%20Preview%20-%20Momentum%20Based.png)
+![Backtest Preview](Backtest%20-%20Preview.png)
 
 | Metric                    | Value            |
 |---------------------------|------------------|
@@ -44,6 +44,39 @@ Rather than relying on news directly, this strategy identifies sectors that have
 Fee Assumptions: The above result assumes the use of fee rebates. Without rebates and using the average fee from prop firms (0.01% per tx), the strategy yields a final return of approximately 40,408%.
 
 ---
+
+### 🔮 Monte Carlo Simulation
+
+![Monte Carlo Preview](Monte%20Carlo%20-%20Preview.png)
+
+To further validate the robustness of the strategy, we conducted a **Monte Carlo simulation** projecting returns forward for **3 years (156 weeks)** using historical weekly return characteristics.
+
+**MONTE CARLO SIMULATION PARAMETERS**  
+| Parameter                     | Value        |
+|------------------------------|--------------|
+| Historical mean weekly return | 0.5529%      |
+| Historical weekly volatility  | 3.7410%      |
+| Simulation periods            | 156 weeks (~3 years) |
+| Number of simulations         | 500          |
+
+**SIMULATION RESULTS**  
+| Metric                      | Value        |
+|----------------------------|--------------|
+| Mean final cumulative return | 124.77%     |
+| Median final cumulative return | 104.88%   |
+| Top 5% outcome              | 303.24%      |
+| Bottom 5% outcome           | 0.20%        |
+| Probability of positive return | 95.4%     |
+
+📈 **Interpretation:**  
+With Monte Carlo simulation, the result is remarkably strong. Forward-simulating for 3 years, the **chance of a positive return is 95.4%**.  
+To put that into perspective:  
+
+> Imagine you're blindfolded, and in front of you are **100 toys** — some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**.  
+That’s how good this strategy’s odds look.
+
+And it’s not just about *not losing*. The **mean return** of **124.77% over 3 years** equates to an annual compound return (CAGR) of roughly **30.5%**, which is **excellent** — especially considering the conservative, reactionary nature of the strategy.
+"""
 
 ### 🎯 Objective
 
