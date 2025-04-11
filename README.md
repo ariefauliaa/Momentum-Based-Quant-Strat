@@ -6,9 +6,9 @@ This repository explores a sector-based event investing approach using stocks fr
 
 ### 🧠 Strategy Concept
 
-The core idea is to simulate how an investor might respond to real-world sector-specific events (e.g., supply chain disruptions, geopolitical tensions) by taking broad exposure to relevant sectors **after** they’ve already shown signs of strength.
+The core idea is to simulate how an investor might respond to real-world sector-specific events (supply chain disruptions, geopolitical tensions, and so on) by taking broad exposure to relevant sectors **after** they’ve already shown signs of strength.
 
-Rather than relying on news directly, this strategy identifies sectors that have demonstrated **recent strong momentum**, then enters positions across all stocks within that sector. The logic is reactive, not predictive — avoiding forward-looking bias.
+Rather than relying on news directly, this strategy identifies sectors that have demonstrated **recent strong momentum**, then enters positions across all stocks within that sector. The logic is reactive, not predictive in order to avoiding forward looking bias.
 
 ---
 
@@ -16,7 +16,7 @@ Rather than relying on news directly, this strategy identifies sectors that have
 - **Market**: Jakarta Composite Index (JCI)  
 - **Sector Classification**: Bloomberg GICS  
 - **Tools**: Python / Jupyter Notebook  
-- **Data Logic**: Sector performance filters → basket-level exposure
+- **Data Logic**: Sector performance filters → basket level exposure
 - **Data Source**: Bloomberg Finance LP, Arief Aulia Rakhman  
 
 ---
@@ -41,13 +41,13 @@ Rather than relying on news directly, this strategy identifies sectors that have
 | **Total Alpha**           | 46,463.33%        |
 | **Annualized Alpha**      | 28.53%            |
 
-Fee Assumptions: The above result assumes the use of fee rebates. Without rebates and using the average fee from prop trading firms (0.01% per trade), the strategy yields a final return of approximately 40,408%.
+Fee Assumptions: The above result assumes the use of fee rebates. Without rebates and using the average fee from prop firms (0.01% per tx), the strategy yields a final return of approximately 40,408%.
 
 ---
 
 ### 🎯 Objective
 
-To evaluate whether **reactive sector exposure** — mimicking event-driven investing — can yield positive returns when applied systematically and without hindsight.
+To evaluate whether **reactive sector exposure** — mimicking event driven investing — can yield positive returns when applied systematically and without hindsight.
 
 ---
 
