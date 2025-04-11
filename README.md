@@ -23,7 +23,7 @@ Rather than relying on news directly, this strategy identifies sectors that have
 
 ### 📊 Backtest Results
 
-/assets/Backtest Preview - Momentum Based.png
+![Backtest Preview](Backtest%20Preview%20-%20Momentum%20Based.png)
 
 | Metric                    | Value            |
 |---------------------------|------------------|
