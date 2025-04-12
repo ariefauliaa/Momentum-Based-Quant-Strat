@@ -41,9 +41,9 @@ Rather than relying on news directly, this strategy identifies sectors that have
 | **Total Alpha**           | 46,463.33%        |
 | **Annualized Alpha**      | 28.53%            |
 
-**Backtest Interpretation:**  
+**Fee Assumptions:**  
 
-Fee Assumptions: The above result assumes the use of fee rebates. Without rebates and using the average fee from prop firms (0.01% per tx), the strategy yields a final return of approximately 40,408%.
+The above result assumes the use of fee rebates. Without rebates and using the average fee from prop firms (0.01% per tx), the strategy yields a final return of approximately 40,408%.
 
 ---
 
