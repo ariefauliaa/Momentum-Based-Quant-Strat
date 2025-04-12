@@ -51,7 +51,7 @@ The above result assumes the use of fee rebates. Without rebates and using the a
 
 ![Monte Carlo Preview](Monte%20Carlo%20-%20Preview.png)
 
-We also ran a **Monte Carlo simulation** using past weekly returns to forecast performance over the **next 3 years or 156 weeks**, which supports the strategy’s reliability.
+We also ran a **Monte Carlo simulation** to forecast performance over the **next 3 years or 156 weeks**, which supports the strategy’s reliability.
 
 **MONTE CARLO SIMULATION PARAMETERS**  
 | Parameter                     | Value        |
