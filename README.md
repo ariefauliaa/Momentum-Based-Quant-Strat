@@ -48,7 +48,7 @@ The above result assumes the use of fee rebates. Without rebates and using the a
 
 ---
 
-### 🔮 Monte Carlo Simulation
+### 🔮 Stress Test - Monte Carlo Simulation
 
 ![Monte Carlo Preview](Monte%20Carlo%20-%20Preview.png)
 
