@@ -25,6 +25,7 @@ Rather than relying on news directly, this strategy identifies sectors that have
 
 ![Backtest Preview](Backtest%20-%20Preview.png)
 
+**Results** 
 | Metric                    | Value            |
 |---------------------------|------------------|
 | **Period**                | 2000-10-22 to 2025-04-13 |
@@ -53,7 +54,7 @@ The above result assumes the use of fee rebates. Without rebates and using the a
 
 We also ran a **Monte Carlo simulation** to forecast performance over the **next 3 years or 156 weeks**, which supports the strategy’s reliability.
 
-**MONTE CARLO SIMULATION PARAMETERS**  
+**Parameters**  
 | Parameter                     | Value        |
 |------------------------------|--------------|
 | Historical mean weekly return | 0.5529%      |
@@ -61,7 +62,7 @@ We also ran a **Monte Carlo simulation** to forecast performance over the **next
 | Simulation periods            | 3 years |
 | Number of simulations         | 500          |
 
-**SIMULATION RESULTS**  
+**Results**  
 | Metric                      | Value        |
 |----------------------------|--------------|
 | Mean final cumulative return | 124.77%     |
