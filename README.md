@@ -1,12 +1,12 @@
-# 📦 Momentum-Based Strategy
+# 📦 Momentum Based Quantitative Strategy
 
-This repository explores a sector-based event investing approach using stocks from the **Jakarta Composite Index (JCI)**, categorized by **Bloomberg GICS industry classification**.
+This project looks into an event driven investing strategy that focuses on sectors within the **Jakarta Composite Index (JCI)**, categorized by **Bloomberg GICS industry classification**.
 
 ---
 
 ### 🧠 Strategy Concept
 
-The core idea is to simulate how an investor might respond to real-world sector-specific events (supply chain disruptions, geopolitical tensions, and so on) by taking broad exposure to relevant sectors **after** they’ve already shown signs of strength.
+The core idea is to model how an asset might react to real world sector specific events (supply chain disruptions, geopolitical tensions, and so on) by taking broad exposure to relevant sectors **after** they’ve already shown signs of strength.
 
 Rather than relying on news directly, this strategy identifies sectors that have demonstrated **recent strong momentum**, then enters positions across all stocks within that sector. The logic is reactive, not predictive in order to avoiding forward looking bias.
 
@@ -72,7 +72,8 @@ We also ran a **Monte Carlo simulation** using past weekly returns to forecast p
 
 **Monte Carlo Interpretation:**  
 
-With Monte Carlo simulation, the result is remarkably strong. Forward simulating for 3 years, the **chance of a positive return is 95.4%**.  
+Using Monte Carlo simulation, the results are impressively strong. When we simulate forward over 3 years, there's a **95.4% chance of ending with a positive return**.
+
 To put that into perspective:  
 
 - Imagine you're blindfolded, and in front of you are **100 toys** some **red** (success) and some **blue** (failure). You reach out and randomly pick **one toy at a time**, doing this **100 times**. Now imagine that **95 of those 100 toys turn out to be red**. That’s how good this strategy’s odds look.
